@@ -1,4 +1,6 @@
 import speech_recognition as sr
+import vosk
+import pyaudio
 
 #Cria reconhecedor
 r = sr.Recognizer()
